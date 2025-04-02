@@ -48,16 +48,14 @@
 
 /* 输入框样式 */
 #hide-last-n {
-    display: inline-block;
-    width: 150px;
+    flex: 0 1 150px;
     padding: 8px 12px;
-    margin: 0 10px;
+    margin: 0;
     border-radius: 4px;
     border: 1px solid rgba(255, 255, 255, 0.2);
     background-color: rgba(0, 0, 0, 0.3);
     color: #ffffff;
     font-size: 13px;
-    vertical-align: middle;
 }
 
 /* 按钮样式 */
@@ -81,7 +79,8 @@
 /* 底部按钮容器 */
 .hide-helper-popup-footer {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
     margin-top: 30px;
     padding-top: 10px;
     border-top: 1px solid rgba(255, 255, 255, 0.2);
