@@ -49,19 +49,21 @@
 /* 输入框样式 */
 #hide-last-n {
     flex: 0 1 150px;
-    padding: 8px 12px;
+    padding: 6px 12px;
     margin: 0;
     border-radius: 4px;
     border: 1px solid rgba(255, 255, 255, 0.2);
     background-color: rgba(0, 0, 0, 0.3);
     color: #ffffff;
     font-size: 13px;
+    height: 35px;
+    box-sizing: border-box;
 }
 
 /* 按钮样式 */
 .hide-helper-btn {
     display: inline-block;
-    padding: 8px 14px;
+    padding: 6px 14px;
     border-radius: 4px;
     border: none;
     background-color: #808080;
@@ -69,7 +71,8 @@
     font-size: 13px;
     cursor: pointer;
     transition: background-color 0.2s ease;
-    vertical-align: middle;
+    height: 35px;
+    box-sizing: border-box;
 }
 
 .hide-helper-btn:hover {
@@ -88,13 +91,17 @@
 
 /* 关闭按钮 */
 .hide-helper-close-btn {
-    padding: 8px 20px;
+    display: block;
+    padding: 6px 20px;
     background-color: #808080;
     color: #ffffff;
     border: none;
     border-radius: 4px;
     cursor: pointer;
     font-size: 13px;
+    height: 35px;
+    box-sizing: border-box;
+    margin: 20px auto 0;
 }
 
 .hide-helper-close-btn:hover {
